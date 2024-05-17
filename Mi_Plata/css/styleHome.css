@@ -1,0 +1,131 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+    
+    /* HEADER */
+
+.cabecera {
+    align-items: center;
+    background-color: hsl(211, 92%, 10%);
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.logo {
+    max-width: 120px;
+    height: 100%;
+}
+
+.menu {
+    font-size: 1rem;
+}
+
+.menu_lista {
+    display: flex;
+}
+
+.menu_item {
+    list-style: none;
+}
+
+.menu_item:nth-child(2) {
+    margin-left: 3rem;
+}
+
+.menu_link {
+    color: #FFF;
+    max-width: 150px;
+    margin-right: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: hsl(180, 100%, 27%);
+    font-weight: 500;
+    transition: all .2s linear;
+}
+
+.menu_link-activo {
+    font-size: 1.275rem;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-right: 2.5rem;
+    text-decoration: none;
+}
+
+.menu_link-activo::after {
+    content: "|";
+    margin-left: 30px;
+    font-weight: 100;
+}
+
+.menu_link:hover {
+    color: white;
+    background: #02A5A5;
+    
+}
+
+    /* MAIN */
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+    /* FOOTER */
+
+.rodapie {
+    background-color: #02A5A5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodapie_titulo {
+    display: flex;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.75rem;
+    align-items: center;
+    padding: 1.5625rem;
+}
+
+.rodapie_descripcion {
+    display: flex;
+    font-size: 1.25rem;
+    margin-left: 5rem;
+    color: #FFF;
+}
+
+.rodapie_lista {
+    display: flex;
+}
+
+.rodapie_item {
+    list-style: none;
+}
+
+.rodapie_icono {
+    margin-right: 1.25rem;
+}
+
+.rodapie_imagen {
+    width: 70px;
+    height: 70px;
+}
