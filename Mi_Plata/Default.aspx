@@ -40,8 +40,11 @@
         </div>        
     </main>
     <footer class="rodapie">
-        <h3 class="rodapie_titulo">Mi Plata Bank</h3>
-        <p class="rodapie_descripcion">Contáctenos</p>
+        <div class="rodapie_div">
+            <img class="rodapie_imagen-destacada" src="img/logoMiPlata.jpg"/>
+            <h3 class="rodapie_titulo">Mi Plata</h3>
+        </div>
+        <p class="rodapie_descripcion">© 2024 Mi Plata Banco Colombiano S.A</p>
         <ul class="rodapie_lista">
             <li class="rodapie_item"><a class="rodapie_icono" href="#"><img class="rodapie_imagen" alt="WhatsApp" src="img/whatsapp.png"/></a></li>
             <li class="rodapie_item"><a class="rodapie_icono" href="#" ><img class="rodapie_imagen" alt="Email" src="img/email.png"/></a></li>
