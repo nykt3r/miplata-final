@@ -96,8 +96,9 @@ body {
     padding-bottom: 10rem;
 }
 
-.principal_titulo{
+.principal_titulo {
     font-size: 3.25rem;
+    color: hsl(211, 92%, 10%);
 }
 
 .principal_descripcion{
@@ -132,6 +133,7 @@ body {
 }
 
 .principal_boton:hover {
+    cursor: pointer;
     background: #02A5A5;
 }
 

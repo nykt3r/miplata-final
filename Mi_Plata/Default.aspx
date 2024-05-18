@@ -6,7 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Mi Plata | Home</title>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="img/webicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="css/styleHome.css"/>
 </head>
 <body>
@@ -15,15 +15,15 @@
            <nav class="menu">
                <ul class="menu_lista">
                    <li class="menu_item"><a class="menu_link-activo" href="Default.aspx">Inicio</a></li>
-                   <li class="menu_item"><a class="menu_link" href="#">Iniciar sesión</a></li>
-                   <li class="menu_item"><a class="menu_link" href="#">Registrarse</a></li>
+                   <li class="menu_item"><a class="menu_link" href="Ingresar.aspx">Iniciar sesión</a></li>
+                   <li class="menu_item"><a class="menu_link" href="Registrar.aspx">Registrarse</a></li>
                </ul>
            </nav>         
     </header>
     <main>
         <section class="principal">
             <div class="principal_container">
-                <form id="formularioRegistro" class="principal_formulario" runat="server">            
+                <form id="formularioHome" class="principal_formulario" runat="server">            
                     <h2 class="principal_titulo">Bienvenido a Mi Plata</h2>
                     <p class="principal_descripcion">Si buscas una cuenta con más beneficios, esta es para ti:</p>
                     <ul class="principal_lista">

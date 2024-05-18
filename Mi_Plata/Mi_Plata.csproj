@@ -67,17 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\normalize.css" />
-    <Content Include="css\reset.css" />
     <Content Include="css\styleHome.css" />
+    <Content Include="css\styleIngreso.css" />
+    <Content Include="css\styleResgistro.css" />
     <Content Include="Default.aspx" />
     <Content Include="img\email.png" />
-    <Content Include="img\favicon.ico" />
     <Content Include="img\imgReferencia.jpg" />
     <Content Include="img\instagram.png" />
     <Content Include="img\logoMiPlata.jpg" />
     <Content Include="img\logoMiPlataInvertido.jpg" />
+    <Content Include="img\webicon.ico" />
     <Content Include="img\whatsapp.png" />
+    <Content Include="Ingresar.aspx" />
+    <Content Include="Registrar.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -89,7 +91,21 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ingresar.aspx.cs">
+      <DependentUpon>Ingresar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ingresar.aspx.designer.cs">
+      <DependentUpon>Ingresar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registrar.aspx.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrar.aspx.designer.cs">
+      <DependentUpon>Registrar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

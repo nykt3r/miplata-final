@@ -11,25 +11,43 @@ namespace Mi_Plata
 {
 
 
-    public partial class Default
+    public partial class Ingresar
     {
 
         /// <summary>
-        /// Control formularioHome.
+        /// Control formularioRegistro.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formularioHome;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formularioRegistro;
 
         /// <summary>
-        /// Control BtnHome.
+        /// Control usuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnHome;
+        protected global::System.Web.UI.WebControls.TextBox usuario;
+
+        /// <summary>
+        /// Control clave.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox clave;
+
+        /// <summary>
+        /// Control form_registro.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button form_registro;
     }
 }
