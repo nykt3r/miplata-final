@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\css\\stylehome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\css\\stylehome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:css\\stylehome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 267,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-18T17:23:27.903Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "css\\styleHome.css",
               "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\css\\styleHome.css",
               "RelativeToolTip": "css\\styleHome.css",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE8AAAAOAAAA",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAIsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-17T02:18:54.82Z",
               "EditorCaption": ""

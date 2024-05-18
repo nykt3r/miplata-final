@@ -21,23 +21,21 @@
            </nav>         
     </header>
     <main>
-        <div class="principal">
-            <section class="principal">
-                    <form id="formularioRegistro" class="principal_formulario" runat="server">            
-                        <h2 class="principal_titulo">Bienvenido a Mi Plata</h2>
-                        <p class="principal_descripcion">Si buscas una cuenta con más beneficios, esta es para ti:</p>
-                        <ul class="principal_lista">
-                            <li class="principal_item">Gratis transferencias a otros bancos, transacciones, retiros en Cajeros y corresponsales bancarios.</li>
-                            <li class="principal_item">Paga tus servicios públicos desde los canales digitales.</li>
-                            <li class="principal_item">Ahórrate el 4x1000 en transacciones hasta por $20 Millones.</li>
-                        </ul>
-                        <asp:Button ID="BtnHome" class="principal_boton" runat="server" Text="Abre tu cuenta" />
-                    </form>
-            </section>
-            <section class="secundario">
-                <img class="secundario_imagen" src="img/imgReferencia.jpg" alt="imagenMedellin"/>
-            </section>
-        </div>        
+        <section class="principal">
+            <div class="principal_container">
+                <form id="formularioRegistro" class="principal_formulario" runat="server">            
+                    <h2 class="principal_titulo">Bienvenido a Mi Plata</h2>
+                    <p class="principal_descripcion">Si buscas una cuenta con más beneficios, esta es para ti:</p>
+                    <ul class="principal_lista">
+                        <li class="principal_item">Gratis transferencias a otros bancos, transacciones, retiros en Cajeros y corresponsales bancarios.</li>
+                        <li class="principal_item">Paga tus servicios públicos desde los canales digitales.</li>
+                        <li class="principal_item">Ahórrate el 4x1000 en transacciones hasta por $20 Millones.</li>
+                    </ul>
+                    <asp:Button ID="BtnHome" class="principal_boton" runat="server" Text="Abre tu cuenta" />
+                </form>
+                <img class="principal_imagen" src="img/imgReferencia.jpg" alt="imagenMedellin"/>
+            </div>
+        </section>        
     </main>
     <footer class="rodapie">
         <div class="rodapie_div">
