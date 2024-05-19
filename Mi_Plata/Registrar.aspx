@@ -22,29 +22,30 @@
     <main>
         <section class="principal">
             <div class="principal_container">
-                <form id="formularioRegistro" class="principal_formulario" runat="server">
+                <form id="formRegistro" class="principal_formulario" runat="server">
                     <h2 class="principal_titulo">Regístrate</h2>
                     <div class="input-container">
-                        <asp:TextBox id="identificacion" runat="server" required="true" TextMode="Number"></asp:TextBox>
+                        <asp:TextBox id="txtIdentificacion" runat="server" required="true" TextMode="Number"></asp:TextBox>
                         <label class="label"><span class="label-text">Identificación</span></label>
                     </div>
                     <div class="input-container">
-                        <asp:TextBox id="usuario" runat="server" required="true"></asp:TextBox>
+                        <asp:TextBox id="txtUsuario" runat="server" required="true"></asp:TextBox>
                         <label class="label"><span class="label-text">Usuario</span></label>
                     </div>
                     <div class="input-container">
-                        <asp:TextBox id="correo" runat="server" required="true"></asp:TextBox>
+                        <asp:TextBox id="txtCorreo" runat="server" required="true"></asp:TextBox>
                         <label class="label"><span class="label-text">Correo</span></label>
                     </div>
                     <div class="input-container">
-                        <asp:TextBox id="clave" runat="server" required="true" ViewStateMode="Enabled" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox id="txtClave" runat="server" required="true" ViewStateMode="Enabled" TextMode="Password"></asp:TextBox>
                         <label class="label"><span class="label-text">Contraseña</span></label>
                     </div>
                     <div class="input-container">
-                        <asp:TextBox id="claveConfirmar" runat="server" required="true" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox id="txtClaveConfirmar" runat="server" required="true" TextMode="Password"></asp:TextBox>
                         <label class="label"><span class="label-text">Repetir Contraseña</span></label>
                     </div>
-                    <asp:Button ID="form_registro" runat="server" Text="Registrarse"/>
+                    <asp:Button ID="form_registro" runat="server" Text="Registrarse" OnClick="form_registro_Click"/>
+                    <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
                 </form>
                 <div class="referencial">      
                     <h2 class="referencial_titulo">Bienvenido/a Amigo/a!</h2>

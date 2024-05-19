@@ -11,14 +11,14 @@
 </head>
 <body>
     <header class="cabecera">
-           <img class="logo" src="img/logoMiPlata.jpg" alt="logoMiPlata"/>
-           <nav class="menu">
-               <ul class="menu_lista">
-                   <li class="menu_item"><a class="menu_link-activo" href="Default.aspx">Inicio</a></li>
-                   <li class="menu_item"><a class="menu_link" href="Ingresar.aspx">Iniciar sesión</a></li>
-                   <li class="menu_item"><a class="menu_link" href="Registrar.aspx">Registrarse</a></li>
-               </ul>
-           </nav>         
+        <img class="logo" src="img/logoMiPlata.jpg" alt="logoMiPlata"/>
+        <nav class="menu">
+            <ul class="menu_lista">
+                <li class="menu_item"><a class="menu_link-activo" href="Default.aspx">Inicio</a></li>
+                <li class="menu_item"><a class="menu_link" href="Ingresar.aspx">Iniciar sesión</a></li>
+                <li class="menu_item"><a class="menu_link" href="Registrar.aspx">Registrarse</a></li>
+             </ul>
+         </nav>         
     </header>
     <main>
         <section class="principal">

@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:registrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\ingresar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:ingresar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:registrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\ingresar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:ingresar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\menuoperaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:menuoperaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Default.aspx",
-              "RelativeDocumentMoniker": "Default.aspx",
-              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Default.aspx",
-              "RelativeToolTip": "Default.aspx",
+              "Title": "Movimiento.cs",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Movimiento.cs",
+              "RelativeDocumentMoniker": "Movimiento.cs",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Movimiento.cs",
+              "RelativeToolTip": "Movimiento.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T04:11:59.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registrar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Registrar.aspx.cs",
+              "RelativeDocumentMoniker": "Registrar.aspx.cs",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Registrar.aspx.cs",
+              "RelativeToolTip": "Registrar.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T04:05:00.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ingresar.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Ingresar.aspx.cs",
+              "RelativeDocumentMoniker": "Ingresar.aspx.cs",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Ingresar.aspx.cs",
+              "RelativeToolTip": "Ingresar.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T03:38:28.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registrar.aspx",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Registrar.aspx",
+              "RelativeDocumentMoniker": "Registrar.aspx",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Registrar.aspx",
+              "RelativeToolTip": "Registrar.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-18T23:03:47.975Z",
+              "WhenOpened": "2024-05-19T04:04:54.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.cs",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Usuario.cs",
+              "RelativeToolTip": "Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T04:03:32.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CuentaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\CuentaBancaria.cs",
+              "RelativeDocumentMoniker": "CuentaBancaria.cs",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\CuentaBancaria.cs",
+              "RelativeToolTip": "CuentaBancaria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T04:03:15.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuOperaciones.aspx",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\MenuOperaciones.aspx",
+              "RelativeDocumentMoniker": "MenuOperaciones.aspx",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\MenuOperaciones.aspx",
+              "RelativeToolTip": "MenuOperaciones.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-19T03:53:48.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ingresar.aspx",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Ingresar.aspx",
+              "RelativeDocumentMoniker": "Ingresar.aspx",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Ingresar.aspx",
+              "RelativeToolTip": "Ingresar.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-19T03:38:12.267Z",
               "EditorCaption": ""
             }
           ]

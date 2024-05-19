@@ -156,7 +156,7 @@ body {
     transform: translateX(0);
 }
 
-#form_registro {
+#form_ingreso {
     max-width: 150px;
     width: 100%;
     background: none;
@@ -169,7 +169,7 @@ body {
     transition: background-color .4s ease, color .4s ease;
 }
 
-    #form_registro:hover {
+    #form_ingreso:hover {
         color: #fff;
         background-color: hsl(180, 100%, 27%);
         border: none;

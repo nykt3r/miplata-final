@@ -75,15 +75,16 @@
     <Content Include="img\imgReferencia.jpg" />
     <Content Include="img\instagram.png" />
     <Content Include="img\logoMiPlata.jpg" />
-    <Content Include="img\logoMiPlataInvertido.jpg" />
     <Content Include="img\webicon.ico" />
     <Content Include="img\whatsapp.png" />
     <Content Include="Ingresar.aspx" />
+    <Content Include="MenuOperaciones.aspx" />
     <Content Include="Registrar.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CuentaBancaria.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -98,6 +99,14 @@
     <Compile Include="Ingresar.aspx.designer.cs">
       <DependentUpon>Ingresar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MenuOperaciones.aspx.cs">
+      <DependentUpon>MenuOperaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuOperaciones.aspx.designer.cs">
+      <DependentUpon>MenuOperaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Movimiento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registrar.aspx.cs">
       <DependentUpon>Registrar.aspx</DependentUpon>
@@ -106,6 +115,7 @@
     <Compile Include="Registrar.aspx.designer.cs">
       <DependentUpon>Registrar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Usuario.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

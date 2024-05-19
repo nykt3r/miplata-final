@@ -36,14 +36,15 @@
                 <form id="formularioRegistro" class="principal_formulario" runat="server">
                     <h2 class="principal_titulo">Inicia Sesión</h2>
                     <div class="input-container">
-                        <asp:TextBox id="usuario" runat="server" required="true"></asp:TextBox>
+                        <asp:TextBox id="txtUsuario" runat="server" required="true"></asp:TextBox>
                         <label class="label"><span class="label-text">Usuario</span></label>
                     </div>
                     <div class="input-container">
-                        <asp:TextBox id="clave" runat="server" required="true" ViewStateMode="Enabled" TextMode="Password"></asp:TextBox>
+                        <asp:TextBox id="txtClave" runat="server" required="true" ViewStateMode="Enabled" TextMode="Password"></asp:TextBox>
                         <label class="label"><span class="label-text">Contraseña</span></label>
                     </div>                   
-                    <asp:Button ID="form_registro" runat="server" Text="Ingresar"/>
+                    <asp:Button ID="form_ingreso" runat="server" Text="Ingresar" OnClick="form_ingreso_Click"/>
+                    <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
                 </form>
             </div>
         </section>        
