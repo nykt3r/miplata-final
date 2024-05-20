@@ -44,7 +44,7 @@
                         <asp:TextBox id="txtClaveConfirmar" runat="server" required="true" TextMode="Password"></asp:TextBox>
                         <label class="label"><span class="label-text">Repetir Contraseña</span></label>
                     </div>
-                    <asp:Button ID="form_registro" runat="server" Text="Registrarse" OnClick="form_registro_Click"/>
+                    <asp:Button ID="form_registro" runat="server" Text="Registrarse" OnClick="btn_Registro_Click"/>
                     <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
                 </form>
                 <div class="referencial">      

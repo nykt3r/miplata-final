@@ -14,7 +14,7 @@ namespace Mi_Plata
                     
         }
 
-        protected void form_ingreso_Click(object sender, EventArgs e)
+        protected void btn_Ingreso_Click(object sender, EventArgs e)
         {
             string usuarioNombre = txtUsuario.Text;
             string clave = txtClave.Text;

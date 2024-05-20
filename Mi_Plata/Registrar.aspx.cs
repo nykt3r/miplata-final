@@ -15,7 +15,7 @@ namespace Mi_Plata
 
         }
 
-        protected void form_registro_Click(object sender, EventArgs e)
+        protected void btn_Registro_Click(object sender, EventArgs e)
         {
             string identificacion = txtIdentificacion.Text;
             string usuarioNombre = txtUsuario.Text;

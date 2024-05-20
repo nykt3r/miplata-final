@@ -33,7 +33,7 @@
                         <li class="referencial_item">Accesible y fácil de utilizar!</li>
                     </ul>
                 </div>
-                <form id="formularioRegistro" class="principal_formulario" runat="server">
+                <form id="formIngreso" class="principal_formulario" runat="server">
                     <h2 class="principal_titulo">Inicia Sesión</h2>
                     <div class="input-container">
                         <asp:TextBox id="txtUsuario" runat="server" required="true"></asp:TextBox>
@@ -43,7 +43,7 @@
                         <asp:TextBox id="txtClave" runat="server" required="true" ViewStateMode="Enabled" TextMode="Password"></asp:TextBox>
                         <label class="label"><span class="label-text">Contraseña</span></label>
                     </div>                   
-                    <asp:Button ID="form_ingreso" runat="server" Text="Ingresar" OnClick="form_ingreso_Click"/>
+                    <asp:Button ID="form_ingreso" runat="server" Text="Ingresar" OnClick="btn_Ingreso_Click"/>
                     <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
                 </form>
             </div>
