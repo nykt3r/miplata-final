@@ -8,37 +8,16 @@ namespace Mi_Plata
     public class Movimiento
     {
         //Atributos
-        private string tipo;
-        private int monto;
-        private DateTime fecha;
+        private string tipo { get; set; }
+        private int monto { get; set; }
+        private DateTime fecha { get; set; }
 
         //Constructor
         public Movimiento(string tipo, int monto)
         {
             this.tipo = tipo;
             this.monto = monto;
-        }
-
-        //Setters y Getters
-
-        public void setTipo(string tipo)
-        {
-            this.tipo = tipo;
-        }
-
-        public string getTipo()
-        {
-            return this.tipo;
-        }
-
-        public void setMonto(int monto)
-        {
-            this.monto = monto;
-        }
-
-        public int getMonto()
-        {
-            return this.monto;
+            this.fecha = DateTime.Now;
         }
     }
 }
