@@ -1,0 +1,67 @@
+﻿   /* MAIN DEFAULT */
+
+.principal .principal_container {
+    height: calc(100vh - 204px);
+    background-color: hsl(203, 87%, 91%);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7rem;
+}
+
+.principal_formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: hsl(211, 92%, 10%);
+    padding-bottom: 10rem;
+}
+
+.principal_titulo {
+    font-size: 3.25rem;
+    color: hsl(211, 92%, 10%);
+}
+
+.principal_descripcion{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.principal_lista {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    list-style: square;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+
+.principal_item::marker {
+    color: hsl(180, 100%, 27%);
+}
+
+.principal_boton {
+    color: #FFF;
+    max-width: 150px;
+    margin-top: 1.25rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    background-color: hsl(180, 100%, 27%);
+    font-weight: 700;
+    border: none;
+    transition: all .2s linear;
+}
+
+.principal_boton:hover {
+    cursor: pointer;
+    background: #02A5A5;
+}
+
+.principal_imagen {
+    height: calc(100vh - 224px);
+    width: 50%;
+    border-radius: 50%;
+    padding: .5rem .75rem;
+}

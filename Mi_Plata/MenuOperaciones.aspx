@@ -7,10 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Mi Plata | Menú de Operaciones</title>
     <link rel="icon" href="img/webicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/styleOperacionesNav.css"/>
-    <link rel="stylesheet" href="css/styleOperacionesEntrada.css"/>
-    <link rel="stylesheet" href="css/styleOperacionesConsignar.css"/>
-    <link rel="stylesheet" href="css/styleOperacionesRetirar.css"/>
+    <link rel="stylesheet" href="css/Operaciones-Nav.css"/>
+    <link rel="stylesheet" href="css/Operaciones-Entrada.css"/>
+    <link rel="stylesheet" href="css/Operaciones-Consignar.css"/>
+    <link rel="stylesheet" href="css/Operaciones-Retirar.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet"/>
 </head>
 <body>
@@ -83,13 +83,7 @@
         </div>
 
     </main>
-    <script type="text/javascript">
-        function validarNumeroPositivo(input) {
-            if (input.value < 1) {
-                input.value = '';
-            }
-        }
-    </script>
-    <script src="script.js"></script>
+    <script src="js/movNav.js"></script>
+    <script src="js/validarNumPositivo.js"></script>
 </body>
 </html>

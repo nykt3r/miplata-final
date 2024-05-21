@@ -7,7 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Mi Plata | Registro</title>
     <link rel="icon" href="img/webicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/styleResgistro.css"/>
+    <link rel="stylesheet" href="css/Initial.css"/>
+    <link rel="stylesheet" href="css/Header.css"/>
+    <link rel="stylesheet" href="css/Registro.css"/>
+    <link rel="stylesheet" href="css/Formulario.css"/>
 </head>
 <body>
     <header class="cabecera">
@@ -44,7 +47,7 @@
                         <asp:TextBox id="txtClaveConfirmar" runat="server" required="true" TextMode="Password"></asp:TextBox>
                         <label class="label"><span class="label-text">Repetir Contraseña</span></label>
                     </div>
-                    <asp:Button ID="form_registro" runat="server" Text="Registrarse" OnClick="btn_Registro_Click"/>
+                    <asp:Button ID="btn_Form" runat="server" Text="Registrarse" OnClick="btn_Registro_Click"/>
                     <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
                 </form>
                 <div class="referencial">      

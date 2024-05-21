@@ -67,13 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\styleOperacionesConsignar.css" />
-    <Content Include="css\styleOperacionesEntrada.css" />
-    <Content Include="css\styleHome.css" />
-    <Content Include="css\styleIngreso.css" />
-    <Content Include="css\styleOperacionesNav.css" />
-    <Content Include="css\styleOperacionesRetirar.css" />
-    <Content Include="css\styleResgistro.css" />
+    <Content Include="css\Footer.css" />
+    <Content Include="css\Formulario.css" />
+    <Content Include="css\Header.css" />
+    <Content Include="css\Initial.css" />
+    <Content Include="css\Operaciones-Consignar.css" />
+    <Content Include="css\Operaciones-Entrada.css" />
+    <Content Include="css\Default.css" />
+    <Content Include="css\Ingreso.css" />
+    <Content Include="css\Operaciones-Nav.css" />
+    <Content Include="css\Operaciones-Retirar.css" />
+    <Content Include="css\Registro.css" />
     <Content Include="Default.aspx" />
     <Content Include="img\email.png" />
     <Content Include="img\imgReferencia.jpg" />
@@ -82,14 +86,15 @@
     <Content Include="img\webicon.ico" />
     <Content Include="img\whatsapp.png" />
     <Content Include="Ingresar.aspx" />
+    <Content Include="js\validarNumPositivo.js" />
     <Content Include="MenuOperaciones.aspx" />
     <Content Include="Registrar.aspx" />
-    <Content Include="script.js" />
+    <Content Include="js\movNav.js" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CuentaBancaria.cs" />
+    <Compile Include="App_Code\CuentaBancaria.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -111,7 +116,7 @@
     <Compile Include="MenuOperaciones.aspx.designer.cs">
       <DependentUpon>MenuOperaciones.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Movimiento.cs" />
+    <Compile Include="App_Code\Movimiento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registrar.aspx.cs">
       <DependentUpon>Registrar.aspx</DependentUpon>
@@ -120,7 +125,7 @@
     <Compile Include="Registrar.aspx.designer.cs">
       <DependentUpon>Registrar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Usuario.cs" />
+    <Compile Include="App_Code\Usuario.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -7,7 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Mi Plata | Home</title>
     <link rel="icon" href="img/webicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/styleHome.css"/>
+    <link rel="stylesheet" href="css/Initial.css"/>
+    <link rel="stylesheet" href="css/Header.css"/>
+    <link rel="stylesheet" href="css/Default.css"/>
+    <link rel="stylesheet" href="css/Footer.css"/>
 </head>
 <body>
     <header class="cabecera">

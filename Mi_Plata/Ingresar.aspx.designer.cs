@@ -42,13 +42,13 @@ namespace Mi_Plata
         protected global::System.Web.UI.WebControls.TextBox txtClave;
 
         /// <summary>
-        /// Control form_ingreso.
+        /// Control btn_Form.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button form_ingreso;
+        protected global::System.Web.UI.WebControls.Button btn_Form;
 
         /// <summary>
         /// Control lblMensaje.

@@ -1,4 +1,6 @@
-﻿.entrada {
+﻿    /* MAIN PANEL ENTRADA */
+
+.entrada {
     width: 50%;
     height: 100vh;
     background-color: hsl(180, 100%, 27%);

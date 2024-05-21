@@ -1,4 +1,6 @@
-﻿const nav = document.querySelector("nav"),
+﻿    // Movimiento vertical del nav
+
+const nav = document.querySelector("nav"),
     toggleBtn = nav.querySelector(".toggle-btn");
 
 toggleBtn.addEventListener("click", () => {

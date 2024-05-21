@@ -7,7 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Mi Plata | Iniciar Sesión</title>
     <link rel="icon" href="img/webicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/styleIngreso.css"/>
+    <link rel="stylesheet" href="css/Initial.css"/>
+    <link rel="stylesheet" href="css/Header.css"/>
+    <link rel="stylesheet" href="css/Ingreso.css"/>
+    <link rel="stylesheet" href="css/Formulario.css"/>
 </head>
 <body>
     <header class="cabecera">
@@ -43,7 +46,7 @@
                         <asp:TextBox id="txtClave" runat="server" required="true" ViewStateMode="Enabled" TextMode="Password"></asp:TextBox>
                         <label class="label"><span class="label-text">Contraseña</span></label>
                     </div>                   
-                    <asp:Button ID="form_ingreso" runat="server" Text="Ingresar" OnClick="btn_Ingreso_Click"/>
+                    <asp:Button ID="btn_Form" runat="server" Text="Ingresar" OnClick="btn_Ingreso_Click"/>
                     <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
                 </form>
             </div>

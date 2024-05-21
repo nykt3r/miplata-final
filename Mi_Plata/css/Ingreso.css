@@ -1,0 +1,21 @@
+﻿    /* MAIN INGRESO */
+
+.principal .principal_container {
+    height: calc(100vh - 112px);
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.principal_formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 50%;
+}
+
+.principal_titulo {
+    font-size: 3.25rem;
+    color: hsl(210, 100%, 22%);
+}
