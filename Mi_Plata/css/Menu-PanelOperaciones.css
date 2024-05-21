@@ -1,0 +1,93 @@
+﻿    /* MAIN PANEL OPERACIONES */
+
+.panel {
+    width: 50%;
+    height: 100vh;
+    background-color: hsl(180, 100%, 27%);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel_titulo {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.panel_formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+}
+
+.panel_entrada {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.panel_entrada .panel_label {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.panel_txtbox {
+    font-size: 2rem;
+    height: 2rem;
+}
+
+.panel_botones {
+    display: flex;
+    gap: 2rem;
+}
+
+.panel_btn {
+    padding: 15px;
+    background-color: hsl(211, 92%, 10%);
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: bold;
+    transition: background-color .4s ease, color .4s ease;
+}
+
+.panel_btn:hover {
+    color: hsl(211, 92%, 10%);
+    background-color: #FFF;
+    border: none;
+    font-weight: bolder;
+}
+
+.panel_resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: hsl(211, 92%, 10%);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#lblVerSaldo {
+    text-align: center;
+    font-size: 2rem;
+    color: hsl(211, 92%, 10%);
+    font-weight: bolder;
+}
+
+table {
+    margin: 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

@@ -7,15 +7,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Mi Plata | Menú de Operaciones</title>
     <link rel="icon" href="img/webicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/Operaciones-Nav.css"/>
-    <link rel="stylesheet" href="css/Operaciones-Entrada.css"/>
-    <link rel="stylesheet" href="css/Operaciones-Consignar.css"/>
-    <link rel="stylesheet" href="css/Operaciones-Retirar.css"/>
+    <link rel="stylesheet" href="css/Menu-Nav.css"/>
+    <link rel="stylesheet" href="css/Menu-PanelEntrada.css"/>
+    <link rel="stylesheet" href="css/Menu-PanelOperaciones.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet"/>
 </head>
 <body>
     <main>
-        <asp:Panel ID="PanelEntrada" runat="server" Visible="True">
+        <asp:Panel ID="PanelEntrada" runat="server" Visible="False">
             <div class="entrada">
                 <h1 class="entrada_titulo">Bienvenido/a nuevamente!</h1>
                 <ul class="entrada_lista">
@@ -30,32 +29,97 @@
         </asp:Panel>
 
         <asp:Panel ID="PanelConsignar" runat="server" Visible="False">
-            <div class="consignar">
-                <h1 class="consignar_titulo"><span></span>! Para consignar:</h1>
-                <form id="formConsignar" class="consignar_formulario" runat="server">
-                    <label class="consignar_label">Ingrese el valor </label>
-                    <asp:TextBox ID="txtConsignar" runat="server" TextMode="Number" oninput="validarNumeroPositivo(this)" ></asp:TextBox>
-                    <asp:Button ID="btnConsignar" runat="server" Text="Confirmar Consignación"/>
-                    <asp:Button ID="btnBackConsignar" runat="server" Text="Volver al Menú de Operaciones"/>
-                    <asp:Label ID="lblMovimientoConsignar" runat="server"></asp:Label>
-                    <asp:Label ID="saldoActualConsignar" runat="server"></asp:Label>
+            <div class="panel">
+                <h1 class="panel_titulo"><span></span>! Para consignar:</h1>
+                <form id="formConsignar" class="panel_formulario" runat="server">
+                    <div class="panel_entrada">
+                        <label class="panel_label">Ingrese el valor </label>
+                        <asp:TextBox ID="txtConsignar" class="panel_txtbox" runat="server" TextMode="Number" oninput="validarNumeroPositivo(this)" ></asp:TextBox>
+                    </div>
+                    <div class="panel_botones">
+                        <asp:Button ID="btnConsignar" class="panel_btn" runat="server" Text="Confirmar Consignación"/>
+                        <asp:Button ID="btnBackConsignar" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones"/>
+                    </div>
+                    <div class="panel_resultado">
+                        <asp:Label ID="lblRespuestaConsignar" class="panel_label" runat="server">ERROR AL CONSIGNAR</asp:Label>
+                        <asp:Label ID="saldoActualConsignar" class="panel_label" runat="server">SALDO ACTUAL: $500</asp:Label>
+                    </div>              
                 </form>           
             </div>
         </asp:Panel>
 
         <asp:Panel ID="PanelRetirar" runat="server" Visible="False">
-            <div class="retirar">
-                <h1 class="retirar_titulo"><span></span>! Para retirar:</h1>
-                <form id="formRetirar" class="retirar_formulario" runat="server">
-                    <label class="retirar_label">Ingrese el valor </label>
-                    <asp:TextBox ID="txtRetirar" runat="server" TextMode="Number" oninput="validarNumeroPositivo(this)" ></asp:TextBox>
-                    <asp:Button ID="btnRetirar" runat="server" Text="Confirmar Retiro"/>
-                    <asp:Button ID="btnBackRetirar" runat="server" Text="Volver al Menú de Operaciones"/>
-                    <asp:Label ID="lblMovimientoRetirar" runat="server"></asp:Label>
-                    <asp:Label ID="saldoActualRetirar" runat="server"></asp:Label>
+            <div class="panel">
+                <h1 class="panel_titulo"><span></span>! Para retirar:</h1>
+                <form id="formRetirar" class="panel_formulario" runat="server">
+                    <div class="panel_entrada">
+                        <label class="panel_label">Ingrese el valor </label>
+                        <asp:TextBox ID="txtRetirar" class="panel_txtbox" runat="server" TextMode="Number" oninput="validarNumeroPositivo(this)" ></asp:TextBox>
+                    </div>
+                    <div class="panel_botones">
+                        <asp:Button ID="btnRetirar" class="panel_btn" runat="server" Text="Confirmar Retiro"/>
+                        <asp:Button ID="btnBackRetirar" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones"/>
+                    </div>
+                    <div class="panel_resultado">
+                        <asp:Label ID="lblRespuestaRetirar" class="panel_label" runat="server">ERROR AL RETIRAR</asp:Label>
+                        <asp:Label ID="saldoActualRetirar" class="panel_label" runat="server">SALDO ACTUAL: $400</asp:Label>
+                    </div>              
                 </form>           
             </div>
         </asp:Panel>
+
+        <asp:Panel ID="PanelSaldo" runat="server" Visible="False">
+            <div class="panel">
+                <h1 class="panel_titulo"><span></span>! Aquí verás tu saldo:</h1>
+                <form id="formSaldo" class="panel_formulario" runat="server">
+                    <asp:Label ID="lblVerSaldo" runat="server">SALDO ACTUAL: $300</asp:Label>
+                    <div class="panel_botones">
+                        <asp:Button ID="btnVerSaldo" class="panel_btn" runat="server" Text="Ver Saldo Actual"/>
+                        <asp:Button ID="btnBackSaldo" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones"/>
+                    </div>           
+                </form>           
+            </div>
+        </asp:Panel>
+
+        <asp:Panel ID="PanelMovimientos" runat="server" Visible="True">
+            <div class="panel">
+                <h1 class="panel_titulo"><span></span>! Aquí verás tus movimientos:</h1>
+                <form id="formMovimientos" class="panel_formulario" runat="server">
+                    <div class="panel_tabla">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Fecha y Hora</th>
+                                    <th>Tipo de Movimiento</th>
+                                    <th>Monto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0000-00-00 00:00</td>
+                                    <td>Consignó</td>
+                                    <td>$500</td>
+                                </tr>
+                                <tr>
+                                    <td>0000-00-00 00:00</td>
+                                    <td>Retiró</td>
+                                    <td>$400</td>
+                                </tr>
+                                <tr>
+                                    <td>0000-00-00 00:00</td>
+                                    <td>Consignó</td>
+                                    <td>$100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="panel_botones">
+                        <asp:Button ID="btnBackMovimientos" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones"/>
+                    </div>       
+                </form>           
+            </div>
+        </asp:Panel>
+
 
         <div class="navegacion">
             <nav>

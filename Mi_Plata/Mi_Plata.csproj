@@ -71,12 +71,11 @@
     <Content Include="css\Formulario.css" />
     <Content Include="css\Header.css" />
     <Content Include="css\Initial.css" />
-    <Content Include="css\Operaciones-Consignar.css" />
-    <Content Include="css\Operaciones-Entrada.css" />
+    <Content Include="css\Menu-PanelOperaciones.css" />
+    <Content Include="css\Menu-PanelEntrada.css" />
     <Content Include="css\Default.css" />
     <Content Include="css\Ingreso.css" />
-    <Content Include="css\Operaciones-Nav.css" />
-    <Content Include="css\Operaciones-Retirar.css" />
+    <Content Include="css\Menu-Nav.css" />
     <Content Include="css\Registro.css" />
     <Content Include="Default.aspx" />
     <Content Include="img\email.png" />
