@@ -42,6 +42,15 @@ namespace Mi_Plata
         protected global::System.Web.UI.WebControls.Panel PanelConsignar;
 
         /// <summary>
+        /// Control consignarNombreUsuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl consignarNombreUsuario;
+
+        /// <summary>
         /// Control txtConsignar.
         /// </summary>
         /// <remarks>
@@ -94,6 +103,15 @@ namespace Mi_Plata
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel PanelRetirar;
+
+        /// <summary>
+        /// Control retirarNombreUsuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl retirarNombreUsuario;
 
         /// <summary>
         /// Control txtRetirar.
@@ -150,6 +168,15 @@ namespace Mi_Plata
         protected global::System.Web.UI.WebControls.Panel PanelSaldo;
 
         /// <summary>
+        /// Control saldoNombreUsuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl saldoNombreUsuario;
+
+        /// <summary>
         /// Control lblVerSaldo.
         /// </summary>
         /// <remarks>
@@ -184,6 +211,15 @@ namespace Mi_Plata
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel PanelMovimientos;
+
+        /// <summary>
+        /// Control movimientosNombreUsuario.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl movimientosNombreUsuario;
 
         /// <summary>
         /// Control btnBackMovimientos.

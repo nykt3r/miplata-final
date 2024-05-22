@@ -11,6 +11,17 @@ namespace Mi_Plata
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["CuentaBancaria"] != null)
+            {
+                CuentaBancaria cuentaBancaria = (CuentaBancaria)Session["CuentaBancaria"];
+
+                consignarNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
+                retirarNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
+                saldoNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
+                movimientosNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
+
+            }
+
             if (!IsPostBack)
             {
                 PanelEntrada.Visible = true;
@@ -69,6 +80,57 @@ namespace Mi_Plata
                 case "Movimientos":
                     PanelMovimientos.Visible = true;
                     break;
+            }
+        }
+
+        protected void backMenuOperaciones_Click(object sender, EventArgs e)
+        {
+            PanelEntrada.Visible = true;
+            PanelConsignar.Visible = false;
+            PanelRetirar.Visible = false;
+            PanelSaldo.Visible = false;
+            PanelMovimientos.Visible = false;
+        }
+
+        protected void btnVerSaldo_Click(object sender, EventArgs e)
+        {
+            if (Session["CuentaBancaria"] != null)
+            {
+                CuentaBancaria cuentaBancaria = (CuentaBancaria)Session["CuentaBancaria"];
+
+                lblVerSaldo.Text = cuentaBancaria.consultarSaldo();
+            }
+        }
+
+        protected void btnConsignar_Click(object sender, EventArgs e)
+        {
+            if (Session["CuentaBancaria"] != null)
+            {
+                string valorConsignar = txtConsignar.Text;
+                int valor = int.Parse(valorConsignar);
+
+                CuentaBancaria cuentaBancaria = (CuentaBancaria)Session["CuentaBancaria"];
+
+                lblRespuestaConsignar.Text = cuentaBancaria.consignarDinero(valor);
+                saldoActualConsignar.Text = cuentaBancaria.consultarSaldo();
+
+                txtConsignar.Text = "";
+            }
+        }
+
+        protected void btnRetirar_Click(object sender, EventArgs e)
+        {
+            if (Session["CuentaBancaria"] != null)
+            {
+                string valorRetirar = txtRetirar.Text;
+                int valor = int.Parse(valorRetirar);
+
+                CuentaBancaria cuentaBancaria = (CuentaBancaria)Session["CuentaBancaria"];
+
+                lblRespuestaRetirar.Text = cuentaBancaria.retirarDinero(valor);
+                saldoActualRetirar.Text = cuentaBancaria.consultarSaldo();
+
+                txtRetirar.Text = "";
             }
         }
     }

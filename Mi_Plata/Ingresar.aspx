@@ -28,7 +28,7 @@
                 <div class="referencial">      
                     <h2 class="referencial_titulo">Bienvenido/a!</h2>
                     <p class="referencial_descripcion">Ingresa ahora</p>
-                    <p class="referencial_descripcion">Accede a los movimientos de tu cuenta ingresando tus datos</p>
+                    <p class="referencial_descripcion">Accede a las operaciones de tu cuenta ingresando tus datos</p>
                     <p class="referencial_descripcion">No olvides nuestros diferenciales como banco:</p>
                     <ul class="referencial_lista">
                         <li class="referencial_item">Retiros y consignaciones instantaneas.</li>

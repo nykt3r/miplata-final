@@ -33,19 +33,19 @@
 
                 <asp:Panel ID="PanelConsignar" runat="server" Visible="False">
                     <div class="panel">
-                        <h1 class="panel_titulo"><span></span>! Para consignar:</h1>
+                        <h1 class="panel_titulo"><span id="consignarNombreUsuario" runat="server"></span>! Para consignar:</h1>
                         <div id="formConsignar" class="panel_formulario">
                             <div class="panel_entrada">
                                 <label class="panel_label">Ingrese el valor </label>
                                 <asp:TextBox ID="txtConsignar" class="panel_txtbox" runat="server" TextMode="Number" oninput="validarNumeroPositivo(this)" ></asp:TextBox>
                             </div>
                             <div class="panel_botones">
-                                <asp:Button ID="btnConsignar" class="panel_btn" runat="server" Text="Confirmar Consignación"/>
-                                <asp:Button ID="btnBackConsignar" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones"/>
+                                <asp:Button ID="btnConsignar" class="panel_btn" runat="server" Text="Confirmar Consignación" OnClick="btnConsignar_Click"/>
+                                <asp:Button ID="btnBackConsignar" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones" OnClick="backMenuOperaciones_Click"/>
                             </div>
                             <div class="panel_resultado">
-                                <asp:Label ID="lblRespuestaConsignar" class="panel_label" runat="server">ERROR AL CONSIGNAR</asp:Label>
-                                <asp:Label ID="saldoActualConsignar" class="panel_label" runat="server">SALDO ACTUAL: $500</asp:Label>
+                                <asp:Label ID="lblRespuestaConsignar" class="panel_label" runat="server"></asp:Label>
+                                <asp:Label ID="saldoActualConsignar" class="panel_label" runat="server"></asp:Label>
                             </div>              
                         </div>           
                     </div>
@@ -53,19 +53,19 @@
 
                 <asp:Panel ID="PanelRetirar" runat="server" Visible="False">
                     <div class="panel">
-                        <h1 class="panel_titulo"><span></span>! Para retirar:</h1>
+                        <h1 class="panel_titulo"><span id="retirarNombreUsuario" runat="server"></span>! Para retirar:</h1>
                         <div id="formRetirar" class="panel_formulario">
                             <div class="panel_entrada">
                                 <label class="panel_label">Ingrese el valor </label>
                                 <asp:TextBox ID="txtRetirar" class="panel_txtbox" runat="server" TextMode="Number" oninput="validarNumeroPositivo(this)" ></asp:TextBox>
                             </div>
                             <div class="panel_botones">
-                                <asp:Button ID="btnRetirar" class="panel_btn" runat="server" Text="Confirmar Retiro"/>
-                                <asp:Button ID="btnBackRetirar" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones"/>
+                                <asp:Button ID="btnRetirar" class="panel_btn" runat="server" Text="Confirmar Retiro" OnClick="btnRetirar_Click"/>
+                                <asp:Button ID="btnBackRetirar" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones" OnClick="backMenuOperaciones_Click"/>
                             </div>
                             <div class="panel_resultado">
-                                <asp:Label ID="lblRespuestaRetirar" class="panel_label" runat="server">ERROR AL RETIRAR</asp:Label>
-                                <asp:Label ID="saldoActualRetirar" class="panel_label" runat="server">SALDO ACTUAL: $400</asp:Label>
+                                <asp:Label ID="lblRespuestaRetirar" class="panel_label" runat="server"></asp:Label>
+                                <asp:Label ID="saldoActualRetirar" class="panel_label" runat="server"></asp:Label>
                             </div>              
                         </div>           
                     </div>
@@ -73,12 +73,12 @@
 
                 <asp:Panel ID="PanelSaldo" runat="server" Visible="False">
                     <div class="panel">
-                        <h1 class="panel_titulo"><span></span>! Aquí verás tu saldo:</h1>
+                        <h1 class="panel_titulo"><span id="saldoNombreUsuario" runat="server"></span>! Aquí verás tu saldo:</h1>
                         <div id="formSaldo" class="panel_formulario">
-                            <asp:Label ID="lblVerSaldo" runat="server">SALDO ACTUAL: $300</asp:Label>
+                            <asp:Label ID="lblVerSaldo" runat="server"></asp:Label>
                             <div class="panel_botones">
-                                <asp:Button ID="btnVerSaldo" class="panel_btn" runat="server" Text="Ver Saldo Actual"/>
-                                <asp:Button ID="btnBackSaldo" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones"/>
+                                <asp:Button ID="btnVerSaldo" class="panel_btn" runat="server" Text="Ver Saldo Actual" OnClick="btnVerSaldo_Click"/>
+                                <asp:Button ID="btnBackSaldo" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones" OnClick="backMenuOperaciones_Click"/>
                             </div>           
                         </div>           
                     </div>
@@ -86,7 +86,7 @@
 
                 <asp:Panel ID="PanelMovimientos" runat="server" Visible="False">
                     <div class="panel">
-                        <h1 class="panel_titulo"><span></span>! Aquí verás tus movimientos:</h1>
+                        <h1 class="panel_titulo"><span id="movimientosNombreUsuario" runat="server"></span>! Aquí verás tus movimientos:</h1>
                         <div id="formMovimientos" class="panel_formulario">
                             <div class="panel_tabla">
                                 <table class="panel_principal">
@@ -117,7 +117,7 @@
                                 </table>
                             </div>
                             <div class="panel_botones">
-                                <asp:Button ID="btnBackMovimientos" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones"/>
+                                <asp:Button ID="btnBackMovimientos" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones" OnClick="backMenuOperaciones_Click"/>
                             </div>       
                         </div>           
                     </div>

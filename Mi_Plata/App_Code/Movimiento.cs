@@ -9,13 +9,13 @@ namespace Mi_Plata
     {
         private string tipo { get; set; }
         private int monto { get; set; }
-        private DateTime fecha { get; set; }
+        private DateTime fechaYHora { get; set; }
 
         public Movimiento(string tipo, int monto)
         {
             this.tipo = tipo;
             this.monto = monto;
-            this.fecha = DateTime.Now;
+            this.fechaYHora = DateTime.Now;
         }
     }
 }
