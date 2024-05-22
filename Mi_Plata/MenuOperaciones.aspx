@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/Menu-Nav.css"/>
     <link rel="stylesheet" href="css/Menu-PanelEntrada.css"/>
     <link rel="stylesheet" href="css/Menu-PanelOperaciones.css"/>
+    <link rel="stylesheet" href="css/Menu-PanelMovimientos.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet"/>
 </head>
 <body>
@@ -86,29 +87,29 @@
                 <h1 class="panel_titulo"><span></span>! Aquí verás tus movimientos:</h1>
                 <form id="formMovimientos" class="panel_formulario" runat="server">
                     <div class="panel_tabla">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Fecha y Hora</th>
-                                    <th>Tipo de Movimiento</th>
-                                    <th>Monto</th>
+                        <table class="panel_principal">
+                            <thead class="panel_head">
+                                <tr class="panel_tr">
+                                    <th class="panel_th">Fecha y Hora</th>
+                                    <th class="panel_th">Tipo de Movimiento</th>
+                                    <th class="panel_th">Monto</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td>0000-00-00 00:00</td>
-                                    <td>Consignó</td>
-                                    <td>$500</td>
+                            <tbody class="panel_body">
+                                <tr class="panel_tr">
+                                    <td class="panel_td">0000-00-00 00:00</td>
+                                    <td class="panel_td">Consignó</td>
+                                    <td class="panel_td">$500</td>
                                 </tr>
-                                <tr>
-                                    <td>0000-00-00 00:00</td>
-                                    <td>Retiró</td>
-                                    <td>$400</td>
+                                <tr class="panel_tr">
+                                    <td class="panel_td">0000-00-00 00:00</td>
+                                    <td class="panel_td">Retiró</td>
+                                    <td class="panel_td">$400</td>
                                 </tr>
-                                <tr>
-                                    <td>0000-00-00 00:00</td>
-                                    <td>Consignó</td>
-                                    <td>$100</td>
+                                <tr class="panel_tr">
+                                    <td class="panel_td">0000-00-00 00:00</td>
+                                    <td class="panel_td">Consignó</td>
+                                    <td class="panel_td">$100</td>
                                 </tr>
                             </tbody>
                         </table>

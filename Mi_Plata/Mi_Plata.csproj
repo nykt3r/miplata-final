@@ -71,6 +71,7 @@
     <Content Include="css\Formulario.css" />
     <Content Include="css\Header.css" />
     <Content Include="css\Initial.css" />
+    <Content Include="css\Menu-PanelMovimientos.css" />
     <Content Include="css\Menu-PanelOperaciones.css" />
     <Content Include="css\Menu-PanelEntrada.css" />
     <Content Include="css\Default.css" />
@@ -90,7 +91,6 @@
     <Content Include="Registrar.aspx" />
     <Content Include="js\movNav.js" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\CuentaBancaria.cs" />
@@ -125,13 +125,6 @@
       <DependentUpon>Registrar.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Code\Usuario.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

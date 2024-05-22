@@ -1,0 +1,46 @@
+﻿    /* MAIN PANEL MOVIMIENTOS */
+
+.panel_tabla {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.panel_principal {
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+}
+
+.panel_head {
+    color: white;
+}
+
+.panel_tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.panel_tr:hover {
+    background-color: #ddd;
+}
+
+.panel_th, .panel_td {
+    border: 2px solid #ddd;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.panel_th {
+    background-color: #021931;
+    color: white;
+}
+
+.panel_td {
+    color: #333;
+}
+
+.panel_td:nth-child(3) {
+    font-weight: bold;
+    color: #000;
+}
