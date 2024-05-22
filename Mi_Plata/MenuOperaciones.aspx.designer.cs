@@ -15,6 +15,15 @@ namespace Mi_Plata
     {
 
         /// <summary>
+        /// Control formMenuOperaciones.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm formMenuOperaciones;
+
+        /// <summary>
         /// Control PanelEntrada.
         /// </summary>
         /// <remarks>
@@ -31,15 +40,6 @@ namespace Mi_Plata
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel PanelConsignar;
-
-        /// <summary>
-        /// Control formConsignar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formConsignar;
 
         /// <summary>
         /// Control txtConsignar.
@@ -96,15 +96,6 @@ namespace Mi_Plata
         protected global::System.Web.UI.WebControls.Panel PanelRetirar;
 
         /// <summary>
-        /// Control formRetirar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formRetirar;
-
-        /// <summary>
         /// Control txtRetirar.
         /// </summary>
         /// <remarks>
@@ -159,15 +150,6 @@ namespace Mi_Plata
         protected global::System.Web.UI.WebControls.Panel PanelSaldo;
 
         /// <summary>
-        /// Control formSaldo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formSaldo;
-
-        /// <summary>
         /// Control lblVerSaldo.
         /// </summary>
         /// <remarks>
@@ -204,15 +186,6 @@ namespace Mi_Plata
         protected global::System.Web.UI.WebControls.Panel PanelMovimientos;
 
         /// <summary>
-        /// Control formMovimientos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formMovimientos;
-
-        /// <summary>
         /// Control btnBackMovimientos.
         /// </summary>
         /// <remarks>
@@ -220,5 +193,41 @@ namespace Mi_Plata
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnBackMovimientos;
+
+        /// <summary>
+        /// Control btnPanelConsignar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor btnPanelConsignar;
+
+        /// <summary>
+        /// Control btnPanelRetirar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor btnPanelRetirar;
+
+        /// <summary>
+        /// Control btnPanelSaldo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor btnPanelSaldo;
+
+        /// <summary>
+        /// Control btnPanelMovimientos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor btnPanelMovimientos;
     }
 }

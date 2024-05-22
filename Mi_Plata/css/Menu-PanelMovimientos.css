@@ -8,7 +8,7 @@
 
 .panel_principal {
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background-color: #f9f9f9;
 }
@@ -26,7 +26,7 @@
 }
 
 .panel_th, .panel_td {
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
     padding: 1.25rem;
     text-align: center;
 }
