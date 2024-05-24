@@ -7,9 +7,9 @@ namespace Mi_Plata
 {
     public class Movimiento
     {
-        private string tipo { get; set; }
-        private int monto { get; set; }
-        private DateTime fechaYHora { get; set; }
+        public string tipo { get; set; }
+        public int monto { get; set; }
+        public DateTime fechaYHora { get; set; }
 
         public Movimiento(string tipo, int monto)
         {

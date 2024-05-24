@@ -11,17 +11,6 @@ namespace Mi_Plata
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["CuentaBancaria"] != null)
-            {
-                CuentaBancaria cuentaBancaria = (CuentaBancaria)Session["CuentaBancaria"];
-
-                consignarNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
-                retirarNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
-                saldoNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
-                movimientosNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
-
-            }
-
             if (!IsPostBack)
             {
                 PanelEntrada.Visible = true;
@@ -29,6 +18,22 @@ namespace Mi_Plata
                 PanelRetirar.Visible = false;
                 PanelSaldo.Visible = false;
                 PanelMovimientos.Visible = false;
+
+                if (Session["CuentaBancaria"] == null) {
+                    Usuario usuario = new Usuario("000", "null", "null", "null");
+                    CuentaBancaria cuentaBancaria = new CuentaBancaria(usuario);
+                    Session["CuentaBancaria"] = cuentaBancaria;
+
+                } 
+                else
+                {
+                    CuentaBancaria cuentaBancaria = (CuentaBancaria)Session["CuentaBancaria"];
+                    consignarNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
+                    retirarNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
+                    saldoNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
+                    movimientosNombreUsuario.InnerText = cuentaBancaria.usuario.usuarioNombre;
+                }
+                BindMovimientos();
             }
 
             btnPanelConsignar.ServerClick += new EventHandler(this.btnPanelConsignar_Click);
@@ -115,6 +120,9 @@ namespace Mi_Plata
                 saldoActualConsignar.Text = cuentaBancaria.consultarSaldo();
 
                 txtConsignar.Text = "";
+
+                Session["CuentaBancaria"] = cuentaBancaria;
+                BindMovimientos();
             }
         }
 
@@ -131,6 +139,20 @@ namespace Mi_Plata
                 saldoActualRetirar.Text = cuentaBancaria.consultarSaldo();
 
                 txtRetirar.Text = "";
+
+                Session["CuentaBancaria"] = cuentaBancaria;
+                BindMovimientos();
+
+            }
+        }
+
+        private void BindMovimientos()
+        {
+            if (Session["CuentaBancaria"] != null)
+            {
+                CuentaBancaria cuentaBancaria = (CuentaBancaria)Session["CuentaBancaria"];
+                TablaMovimientos.DataSource = cuentaBancaria.movimientos;
+                TablaMovimientos.DataBind();
             }
         }
     }

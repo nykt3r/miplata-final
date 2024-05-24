@@ -89,32 +89,13 @@
                         <h1 class="panel_titulo"><span id="movimientosNombreUsuario" runat="server"></span>! Aquí verás tus movimientos:</h1>
                         <div id="formMovimientos" class="panel_formulario">
                             <div class="panel_tabla">
-                                <table class="panel_principal">
-                                    <thead class="panel_head">
-                                        <tr class="panel_tr">
-                                            <th class="panel_th">Fecha y Hora</th>
-                                            <th class="panel_th">Tipo de Movimiento</th>
-                                            <th class="panel_th">Monto</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="panel_body">
-                                        <tr class="panel_tr">
-                                            <td class="panel_td">0000-00-00 00:00</td>
-                                            <td class="panel_td">Consignó</td>
-                                            <td class="panel_td">$500</td>
-                                        </tr>
-                                        <tr class="panel_tr">
-                                            <td class="panel_td">0000-00-00 00:00</td>
-                                            <td class="panel_td">Retiró</td>
-                                            <td class="panel_td">$400</td>
-                                        </tr>
-                                        <tr class="panel_tr">
-                                            <td class="panel_td">0000-00-00 00:00</td>
-                                            <td class="panel_td">Consignó</td>
-                                            <td class="panel_td">$100</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <asp:GridView ID="TablaMovimientos" class="movimientos" runat="server" AutoGenerateColumns="False">
+                                    <Columns>
+                                        <asp:BoundField DataField="fechaYHora" HeaderText="Fecha y Hora" />
+                                        <asp:BoundField DataField="tipo" HeaderText="Tipo de Movimiento" />
+                                        <asp:BoundField DataField="monto" HeaderText="Monto" />
+                                    </Columns>
+                                </asp:GridView>
                             </div>
                             <div class="panel_botones">
                                 <asp:Button ID="btnBackMovimientos" class="panel_btn" runat="server" Text="Volver al Menú de Operaciones" OnClick="backMenuOperaciones_Click"/>

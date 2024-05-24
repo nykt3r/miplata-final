@@ -222,6 +222,15 @@ namespace Mi_Plata
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl movimientosNombreUsuario;
 
         /// <summary>
+        /// Control TablaMovimientos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView TablaMovimientos;
+
+        /// <summary>
         /// Control btnBackMovimientos.
         /// </summary>
         /// <remarks>

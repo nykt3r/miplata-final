@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\menuoperaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:menuoperaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|c:\\users\\nykt3r\\desktop\\net-proyectofinal-miplata\\mi_plata\\css\\menu-panelmovimientos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C34689DE-4A65-4AC0-AB92-5CCB3548D401}|Mi_Plata.csproj|solutionrelative:css\\menu-panelmovimientos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 267,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +26,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu-PanelMovimientos.css",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\css\\Menu-PanelMovimientos.css",
+              "RelativeDocumentMoniker": "css\\Menu-PanelMovimientos.css",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\css\\Menu-PanelMovimientos.css",
+              "RelativeToolTip": "css\\Menu-PanelMovimientos.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-24T02:16:06.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Default.aspx",
-              "RelativeDocumentMoniker": "Default.aspx",
-              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\Default.aspx",
-              "RelativeToolTip": "Default.aspx",
+              "Title": "MenuOperaciones.aspx",
+              "DocumentMoniker": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\MenuOperaciones.aspx",
+              "RelativeDocumentMoniker": "MenuOperaciones.aspx",
+              "ToolTip": "C:\\Users\\Nykt3r\\Desktop\\NET-ProyectoFinal-MiPlata\\Mi_Plata\\MenuOperaciones.aspx",
+              "RelativeToolTip": "MenuOperaciones.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-22T05:47:45.501Z",
+              "WhenOpened": "2024-05-24T01:56:44.281Z",
               "EditorCaption": ""
             }
           ]
