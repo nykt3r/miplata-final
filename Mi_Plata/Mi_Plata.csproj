@@ -71,7 +71,7 @@
     <Content Include="css\Formulario.css" />
     <Content Include="css\Header.css" />
     <Content Include="css\Initial.css" />
-    <Content Include="css\Menu-PanelMovimientos.css" />
+    <Content Include="css\Menu-PanelMov.css" />
     <Content Include="css\Menu-PanelOperaciones.css" />
     <Content Include="css\Menu-PanelEntrada.css" />
     <Content Include="css\Default.css" />

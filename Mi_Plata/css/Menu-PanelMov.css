@@ -1,0 +1,50 @@
+﻿    /* MAIN PANEL MOVIMIENTOS */
+
+.panel_tabla {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.movimientos {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.125rem;
+    background-color: #021931;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.movimientos th {
+    background-color: #021931;
+    color: #ffffff;
+    padding: .75rem;
+    text-align: center;
+}
+
+.movimientos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.movimientos tr:nth-child(odd) {
+    background-color: #e9e9e9;
+}
+
+.movimientos tr:hover {
+    background-color: #ddd;
+}
+
+.movimientos td {
+    padding: .75rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #021931;
+}
+
+.movimientos td:last-child {
+    font-weight: bolder;
+}
+
+.movimientos td:last-child:before {
+    content: "$";
+}

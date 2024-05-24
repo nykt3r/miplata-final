@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/Menu-Nav.css"/>
     <link rel="stylesheet" href="css/Menu-PanelEntrada.css"/>
     <link rel="stylesheet" href="css/Menu-PanelOperaciones.css"/>
-    <link rel="stylesheet" href="css/Menu-PanelMovimientos.css"/>
+    <link rel="stylesheet" href="css/Menu-PanelMov.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet"/>
 </head>
 <body>
